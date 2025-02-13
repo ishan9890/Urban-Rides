@@ -11,7 +11,7 @@ import "./Components/pages/loginsignup/Login.css"
 
 import Aboutus from './Components/pages/Aboutus'
 import Bikes from './Components/pages/Bikes'
-import Bus from './Components/pages/Bus'
+// import Bus from './Components/pages/Bus'
 import Cars from './Components/pages/Cars'
 import Contact from './Components/pages/Contact'
 import Home from './Components/pages/Home'
@@ -38,7 +38,7 @@ const App=()=> {
         <Route path="/log-in" element={<Login setIsLoggedIn={setIsLoggedIn}/> } />
         <Route path="/cars" element={<Cars/>} />
         <Route path="/bikes" element={<Bikes/>} />
-        <Route path="/bus" element={<Bus/>} />
+        {/* <Route path="/bus" element={<Bus/>} /> */}
         <Route path="/booking" element={<Booking/>} />
         <Route path="/sign-up" element={<Signup/>} />
         <Route path="/verify" element={<Verify/>} />

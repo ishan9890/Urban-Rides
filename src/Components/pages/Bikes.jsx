@@ -3,9 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import './Bikes.css';
 
 const bikes = [
-  { id: 1, name: "Bike-1", image: "bike1" },
-  { id: 2, name: "Bike-2", image: "bike2" },
-  { id: 3, name: "Bike-3", image: "bike3" },
+  { id: 1, name: "Bike-1  (Rs.1200/day)", image: "bike1" },
+  { id: 2, name: "Bike-2  (Rs.1200/day)", image: "bike2" },
+  { id: 3, name: "Bike-3  (Rs.1200/day)", image: "bike3" },
 ];
 
 const Bikes = () => {
