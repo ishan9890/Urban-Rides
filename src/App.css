@@ -13,7 +13,7 @@
     font-size: 3rem;
 }
 .home{
-    background-image: url('C:\Users\acer\Desktop\Softwarica\project\src\images\bg-1.jpg');
+    /* background-image: url('C:\Users\acer\Desktop\Softwarica\project\src\images\bg-1.jpg'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,4 +24,14 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+}
+/* Homepage Section */
+.homepage {
+    background-color: #777; /* Grey background */
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 40px 0;
+    margin-bottom: 20px; /* Space between homepage & cards */
 }
