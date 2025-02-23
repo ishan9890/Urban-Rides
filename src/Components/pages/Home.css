@@ -1,4 +1,4 @@
-/* Hero Section */
+
 .hero-container {
     display: flex;
     align-items: center;
@@ -7,10 +7,10 @@
     background: #f4f4f4;
     min-height: 100vh;
     padding: 50px;
-    flex-wrap: wrap; /* Ensures responsiveness */
+    flex-wrap: wrap;
 }
 
-/* Left Content */
+
 .hero-text {
     max-width: 500px;
 }
@@ -32,7 +32,7 @@
     margin-top: 15px;
 }
 
-/* Button */
+
 .explore-button {
     margin-top: 20px;
     padding: 14px 28px;
@@ -51,22 +51,22 @@
     transform: scale(1.05);
 }
 
-/* Right Side: Car Image */
+
 .hero-image-container {
     max-width: 750px;
     width: 100%;
-    height: 450px; /* Fixed height */
+    height: 450px;
     display: flex;
     justify-content: center;
     position: relative;
-    background-image: url("../../assets/home.png"); /* Background image */
+    background-image: url("../../assets/home.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     animation: fadeIn 1.2s ease-in-out;
 }
 
-/* Fade-in Animation */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -78,7 +78,7 @@
     }
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     .hero-container {
         flex-direction: column;
@@ -95,7 +95,7 @@
     }
 
     .hero-image-container {
-        height: 350px; /* Adjusted for smaller screens */
+        height: 350px;
     }
 }
 
@@ -110,6 +110,6 @@
     }
 
     .hero-image-container {
-        height: 280px; /* Smaller image for mobile */
+        height: 280px;
     }
 }

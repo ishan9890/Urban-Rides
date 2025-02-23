@@ -1,9 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate } from "react-router-dom"; 
 import "./Home.css";
 
 const Home = () => {
-  const navigate = useNavigate(); // Hook for navigation
+  const navigate = useNavigate(); 
 
   return (
     <section className="hero-container">
@@ -19,7 +19,7 @@ const Home = () => {
         <button
           className="explore-button"
           aria-label="Explore available vehicles"
-          onClick={() => navigate("/vehicles")} // Navigate to Vehicles page
+          onClick={() => navigate("/vehicles")} 
         >
           Explore Vehicles
         </button>
